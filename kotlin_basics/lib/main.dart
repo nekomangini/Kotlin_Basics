@@ -50,11 +50,14 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  bool _showBanner = true;
+
   // TODO: Add _bannerAd
   BannerAd? _bannerAd;
   @override
   void initState() {
     super.initState();
+    // admob
     BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       request: const AdRequest(),
@@ -71,6 +74,7 @@ class _MainPageState extends State<MainPage> {
         },
       ),
     ).load();
+    // unity
   }
 
   //// TODO: Load a banner ad

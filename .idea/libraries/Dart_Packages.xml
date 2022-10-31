@@ -198,6 +198,13 @@
             </list>
           </value>
         </entry>
+        <entry key="unity_ads_plugin">
+          <value>
+            <list>
+              <option value="C:/flutter/.pub-cache/hosted/pub.dartlang.org/unity_ads_plugin-0.3.7/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="vector_math">
           <value>
             <list>
@@ -240,6 +247,7 @@
       <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.1/lib" />
       <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.1/lib" />
       <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.4.12/lib" />
+      <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/unity_ads_plugin-0.3.7/lib" />
       <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.2/lib" />
       <root url="file://C:/flutter/.pub-cache/hosted/pub.dartlang.org/visibility_detector-0.3.3/lib" />
       <root url="file://C:/flutter/bin/cache/pkg/sky_engine/lib" />

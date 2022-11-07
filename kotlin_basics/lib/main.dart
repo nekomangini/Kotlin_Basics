@@ -9,6 +9,7 @@ import 'components/custom_container.dart';
 import 'components/custom_open_container.dart';
 
 void main() {
+  // initialized ads
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
   runApp(const SplashPage());
@@ -50,7 +51,7 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  bool _showBanner = true;
+  // final bool  _showBanner = true;
 
   // TODO: Add _bannerAd
   BannerAd? _bannerAd;
@@ -260,7 +261,7 @@ class _MainPageState extends State<MainPage> {
               // if (_bannerAd != null)
               //   Align(
               //     alignment: Alignment.topCenter,
-              //     child: SizedBox(
+              //     child: Container(
               //       width: _bannerAd!.size.width.toDouble(),
               //       height: _bannerAd!.size.height.toDouble(),
               //       child: AdWidget(ad: _bannerAd!),
